@@ -2,12 +2,12 @@
    
   <h1>mutation-seek 🔬</h1>
   
-  **_long pipeline name_**
+  **_An awesome quantitative genetics pipeline_**
 
   [![tests](https://github.com/OpenOmics/mutation-seek/workflows/tests/badge.svg)](https://github.com/OpenOmics/mutation-seek/actions/workflows/main.yaml) [![docs](https://github.com/OpenOmics/mutation-seek/workflows/docs/badge.svg)](https://github.com/OpenOmics/mutation-seek/actions/workflows/docs.yml) [![GitHub issues](https://img.shields.io/github/issues/OpenOmics/mutation-seek?color=brightgreen)](https://github.com/OpenOmics/mutation-seek/issues)  [![GitHub license](https://img.shields.io/github/license/OpenOmics/mutation-seek)](https://github.com/OpenOmics/mutation-seek/blob/main/LICENSE) 
   
   <i>
-    This is the home of the pipeline, mutation-seek. Its long-term goals: to accurately ...insert goal, to infer ...insert goal, and to boldly ...insert goal like no pipeline before!
+    This is the home of the pipeline, mutation-seek. Its long-term goals: to boldly detect physiological homogeneity within genetic heterogeneity and to perform error-prone data preparation for genome-wide association studies (GWAS) like no pipeline before!
   </i>
 </div>
 
@@ -21,7 +21,7 @@ The **`./mutation-seek`** pipeline is composed several inter-related sub command
  * [<code>mutation-seek <b>install</b></code>](https://openomics.github.io/mutation-seek/usage/install/): Download reference files locally.
  * [<code>mutation-seek <b>cache</b></code>](https://openomics.github.io/mutation-seek/usage/cache/): Cache remote resources locally, coming soon!
 
-**mutation-seek** is a comprehensive ...insert long description. It relies on technologies like [Singularity<sup>1</sup>](https://singularity.lbl.gov/) to maintain the highest-level of reproducibility. The pipeline consists of a series of data processing and quality-control steps orchestrated by [Snakemake<sup>2</sup>](https://snakemake.readthedocs.io/en/stable/), a flexible and scalable workflow management system, to submit jobs to a cluster.
+**mutation-seek** is an comprehensive pipeline for quantitative genetics. It relies on technologies like [Singularity<sup>1</sup>](https://singularity.lbl.gov/) to maintain the highest-level of reproducibility. The pipeline consists of a series of data processing and quality-control steps orchestrated by [Snakemake<sup>2</sup>](https://snakemake.readthedocs.io/en/stable/), a flexible and scalable workflow management system, to submit jobs to a cluster.
 
 The pipeline is compatible with data generated from Illumina short-read sequencing technologies. As input, it accepts a set of FastQ files and can be run locally on a compute instance or on-premise using a cluster. A user can define the method or mode of execution. The pipeline can submit jobs to a cluster using a job scheduler like SLURM (more coming soon!). A hybrid approach ensures the pipeline is accessible to all users.
 

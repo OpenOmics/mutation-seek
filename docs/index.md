@@ -2,7 +2,7 @@
 
   <h1 style="font-size: 250%">mutation-seek 🔬</h1>
 
-  <b><i>long pipeline name</i></b><br> 
+  <b><i>An awesome quantitative genetics pipeline</i></b><br> 
   <a href="https://github.com/OpenOmics/mutation-seek/actions/workflows/main.yaml">
     <img alt="tests" src="https://github.com/OpenOmics/mutation-seek/workflows/tests/badge.svg">
   </a>
@@ -17,13 +17,14 @@
   </a>
 
   <p>
-    This is the home of the pipeline, mutation-seek. Its long-term goals: to accurately ...insert goal, to infer ...insert goal, and to boldly ...insert goal like no pipeline before!
+    This is the home of the pipeline, mutation-seek. Its long-term goals: to boldly detect physiological homogeneity within genetic heterogeneity and to perform error-prone data preparation for genome-wide association studies (GWAS) like no pipeline before!
   </p>
 
 </div>  
 
 
 ## Overview
+
 Welcome to mutation-seek's documentation! This guide is the main source of documentation for users that are getting started with the [long pipeline name](https://github.com/OpenOmics/mutation-seek/). 
 
 The **`./mutation-seek`** pipeline is composed several inter-related sub commands to setup and run the pipeline across different systems. Each of the available sub commands perform different functions: 
@@ -58,7 +59,7 @@ The **`./mutation-seek`** pipeline is composed several inter-related sub command
 
 </section>
 
-**mutation-seek** is a comprehensive ...insert long description. It relies on technologies like [Singularity<sup>1</sup>](https://singularity.lbl.gov/) to maintain the highest-level of reproducibility. The pipeline consists of a series of data processing and quality-control steps orchestrated by [Snakemake<sup>2</sup>](https://snakemake.readthedocs.io/en/stable/), a flexible and scalable workflow management system, to submit jobs to a cluster.
+**mutation-seek** is a comprehensive pipeline for quantitative genetics. It relies on technologies like [Singularity<sup>1</sup>](https://singularity.lbl.gov/) to maintain the highest-level of reproducibility. The pipeline consists of a series of data processing and quality-control steps orchestrated by [Snakemake<sup>2</sup>](https://snakemake.readthedocs.io/en/stable/), a flexible and scalable workflow management system, to submit jobs to a cluster.
 
 The pipeline is compatible with data generated from Illumina short-read sequencing technologies. As input, it accepts a set of FastQ files and can be run locally on a compute instance or on-premise using a cluster. A user can define the method or mode of execution. The pipeline can submit jobs to a cluster using a job scheduler like SLURM (more coming soon!). A hybrid approach ensures the pipeline is accessible to all users.
 
@@ -68,7 +69,7 @@ For more information about issues or trouble-shooting a problem, please checkout
 
 ## Contribute 
 
-This site is a living document, created for and by members like you. mutation-seek is maintained by the members of NCBR and is improved by continous feedback! We encourage you to contribute new content and make improvements to existing content via pull request to our [GitHub repository :octicons-heart-fill-24:{ .heart }](https://github.com/OpenOmics/mutation-seek).
+This site is a living document, created for and by members like you. mutation-seek is maintained by the members of OpenOmics and is improved by continous feedback! We encourage you to contribute new content and make improvements to existing content via pull request to our [GitHub repository :octicons-heart-fill-24:{ .heart }](https://github.com/OpenOmics/mutation-seek).
 
 ## Citation
 
